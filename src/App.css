@@ -1,0 +1,100 @@
+
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.App {
+  text-align: center;
+  
+}
+
+body{
+  background-color: rgb(117, 117, 241);
+}
+
+.container{
+  text-align: center;
+  left: 30%;
+  top: 15%;
+  position: absolute;
+  width: 540px;
+  height: auto;
+  border: 1px solid black;
+  border-radius: 2%;
+  background-color: white;
+
+}
+.todoapp{
+  /* background-color:darkgreen; */
+  border: 1px solid white;
+  margin-left: 120px;
+  margin-bottom: 7px;
+  position: relative;
+  display: flex;
+  align-items: center;
+
+}
+#input{
+  background-color: white;
+  border: 1px solid gray;
+  padding: 12px;
+  margin-bottom: 40px;
+}
+#btn1{
+padding: 12px;
+border: 1px solid gray;
+background-color: rgb(66, 136, 206); 
+} 
+.Data_list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.outputdata1{
+
+  text-align: center;
+  background-color: rgb(240, 235, 235);
+  width: 290px;
+  font-size: 18px;
+  align-items: center;
+  margin: 10px;
+}
+#outputdata{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin: 0;
+text-align: center;
+  font-size: 18px;
+  align-items: center;
+
+} 
+ #delete{
+  padding: 17px;
+  float: right;
+  background-color: rgba(207, 44, 44, 0.61);
+  border: transparent;
+}
+#delete:hover{
+background-color: red;
+}
+
